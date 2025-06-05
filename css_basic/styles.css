@@ -28,3 +28,91 @@ aside {
 article aside {
   overflow-y: auto;
 }
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section */
+header {
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+/* Logo image */
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+/* Navigation menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav {
+  margin: 10px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  color: #222;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+}
+
+/* Aside */
+aside {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #eaeaea;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
