@@ -1,0 +1,284 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #868686;
+}
+
+.logo {
+  width: 80px;
+  height: 50px;
+}
+
+.link-container {
+  display: flex;
+  place-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+section {
+  width: 100%;
+  padding: 20px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8rem;
+  min-height: 600px;
+  background-image: url(photos/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(41, 48, 68, 0.5);
+}
+
+.banner.sec1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #ffffff;
+}
+
+.three-word {
+  display: flex;
+  gap: 15px;
+  font-size: 25px;
+  justify-content: center;
+  margin: 5px;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 8px 5px;
+  width: 150px;
+  border-radius: 15px;
+  background-color: #c82df7;
+  border: 1px solid #c82df7;
+  color: #ffffff;
+}
+
+.banner-sec2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+
+  justify-content: center;
+}
+
+h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.pros-container {
+  margin-top: 3rem;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.pros-container p {
+  max-width: 100px;
+}
+
+.each-pro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.each-pro img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+h3 span {
+  color: #c82df7;
+}
+
+.each-pro h4,
+.each-pro p {
+  text-align: center;
+  color: white;
+}
+
+.Testimonials {
+  background-color: rgb(151, 58, 151);
+  min-height: 300px;
+  place-content: center;
+}
+
+.test-inner {
+  display: flex;
+  gap: 50px;
+  place-content: center;
+  color: #ffffff;
+}
+
+.test-image img {
+  width: 110px;
+  height: 110px;
+}
+
+.qoute-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.qoute-container h4 {
+  margin-top: 1.5rem;
+}
+
+.video {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+}
+
+.inner-video {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
+}
+
+.each-video {
+  display: flex;
+  flex-direction: column;
+  max-width: 170px;
+  justify-content: space-between;
+}
+
+.video-pic {
+  width: 150px;
+  height: 100px;
+}
+
+.each-video > p {
+  color: gray;
+  width: 190px;
+}
+
+.each-video h4 {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.video-author {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.video-author img {
+  width: 30px;
+  height: 30px;
+} 
+
+.video-author p {
+  place-content: center;
+  color: #c82df7;
+}
+
+.membership {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem 0;
+  background-color: rgb(0, 0, 34);
+  color: white;
+}
+
+.member-inner {
+  display: flex;
+  gap: 30px;
+  margin: 3rem 0;
+}
+
+.smile {
+  text-align: center;
+}
+
+.member-inner img {
+  height: 80px;
+  width: 80px;
+}
+
+.member-inner h4 {
+  text-align: center;
+  font-size: 20px;
+} 
+
+.FAQ-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px 80px;
+  min-height: 450px;
+}
+
+.FAQ h3,
+.FAQ h4 {
+  color: rgb(27, 28, 100);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 34);
+  min-height: 150px;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.copyRight {
+  text-align: center;
+  color: #727272;
+}
+
+@media (min-width: 1001px) {
+  /* Styles for screens wider than 1000px */
+  section {
+    padding: 0 150px;
+  }
+
+  .inner-video {
+    margin: 3rem 10rem;
+  }
+}
